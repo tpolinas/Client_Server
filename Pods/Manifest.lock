@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.5.0)
+  - DynamicJSON (2.0.2)
+  - Kingfisher (7.2.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DynamicJSON
+  - Kingfisher
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DynamicJSON
+    - Kingfisher
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  DynamicJSON: fc0c5a82980ff8aa956156f04d84fcdb2822e875
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 7fcb3b8d2325e4a8f0d7c71ce5ff898884d0a5ea
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "dcd3788f75bafb0cc397d145e1651aab3ad4bf0e",
+          "version": "11.12.0"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-swift.git",
+        "state": {
+          "branch": "master",
+          "revision": "dfe03623dd87e72c485eb548b9c85fb4dda27b23",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

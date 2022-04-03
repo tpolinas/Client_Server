@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="newsImageSingle" id="lFS-y5-nhl" customClass="NewsImageCell" customModule="VK_GB_ClientServer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zfj-3d-Ada">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="zfj-3d-Ada" secondAttribute="height" multiplier="1:1" id="pZc-uw-Xid"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="Wdz-vX-WuB"/>
+            <constraints>
+                <constraint firstAttribute="top" secondItem="zfj-3d-Ada" secondAttribute="top" id="EVX-wF-kTL"/>
+                <constraint firstAttribute="trailing" secondItem="zfj-3d-Ada" secondAttribute="trailing" id="cqi-dg-SvO"/>
+                <constraint firstAttribute="bottom" secondItem="zfj-3d-Ada" secondAttribute="bottom" id="dF0-G3-EhB"/>
+                <constraint firstItem="zfj-3d-Ada" firstAttribute="leading" secondItem="lFS-y5-nhl" secondAttribute="leading" id="zHk-w8-CHT"/>
+            </constraints>
+            <size key="customSize" width="100" height="100"/>
+            <connections>
+                <outlet property="newsImage" destination="zfj-3d-Ada" id="lbr-KQ-rrS"/>
+            </connections>
+            <point key="canvasLocation" x="173.91304347826087" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="friendPageCell" id="KbJ-so-7yf" customClass="FriendPage" customModule="VK_GB_ClientServer">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jd0-bh-N0B">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bDs-oA-txk">
+                                <rect key="frame" x="0.0" y="0.5" width="100" height="98.5"/>
+                                <color key="tintColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bDs-oA-txk" secondAttribute="height" multiplier="1:1" id="p6P-2K-VB9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3o0-kk-eS4">
+                                <rect key="frame" x="65" y="79" width="26" height="19"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="0" imagePadding="1">
+                                    <imageReference key="image" image="heart" catalog="system" symbolScale="small" renderingMode="template"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font" scale="small" weight="regular">
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                    </preferredSymbolConfiguration>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="2" trailing="2"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="likeButtonPressed:" destination="KbJ-so-7yf" eventType="touchUpInside" id="zeo-AE-3rU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="999" constant="100" id="2m9-p1-zeB"/>
+                            <constraint firstItem="bDs-oA-txk" firstAttribute="centerX" secondItem="jd0-bh-N0B" secondAttribute="centerX" id="4U5-aX-PFU"/>
+                            <constraint firstItem="3o0-kk-eS4" firstAttribute="bottom" secondItem="jd0-bh-N0B" secondAttribute="bottom" constant="-2" id="diN-Xt-fc4"/>
+                            <constraint firstAttribute="width" secondItem="jd0-bh-N0B" secondAttribute="height" multiplier="1:1" id="jhB-ox-wnY"/>
+                            <constraint firstItem="bDs-oA-txk" firstAttribute="centerY" secondItem="jd0-bh-N0B" secondAttribute="centerY" id="kBd-KA-H72"/>
+                            <constraint firstItem="bDs-oA-txk" firstAttribute="width" secondItem="jd0-bh-N0B" secondAttribute="width" id="nRS-L3-Yi5"/>
+                            <constraint firstItem="3o0-kk-eS4" firstAttribute="leading" secondItem="jd0-bh-N0B" secondAttribute="trailing" constant="-35" id="nlQ-ur-qhP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="bi8-ca-dq6"/>
+            <color key="tintColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jd0-bh-N0B" firstAttribute="top" secondItem="KbJ-so-7yf" secondAttribute="top" id="BeY-jJ-Mfv"/>
+                <constraint firstAttribute="bottom" secondItem="jd0-bh-N0B" secondAttribute="bottom" id="Ova-yk-iUO"/>
+                <constraint firstAttribute="trailing" secondItem="jd0-bh-N0B" secondAttribute="trailing" id="gJg-Ul-qw8"/>
+                <constraint firstItem="jd0-bh-N0B" firstAttribute="leading" secondItem="KbJ-so-7yf" secondAttribute="leading" id="vr2-0b-bzv"/>
+            </constraints>
+            <size key="customSize" width="217" height="310"/>
+            <connections>
+                <outlet property="friendPhoto" destination="bDs-oA-txk" id="0U2-mK-jaQ"/>
+                <outlet property="likeButton" destination="3o0-kk-eS4" id="9kE-Eb-zey"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="42"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

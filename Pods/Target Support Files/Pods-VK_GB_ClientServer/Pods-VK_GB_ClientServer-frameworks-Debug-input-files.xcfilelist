@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-VK_GB_ClientServer/Pods-VK_GB_ClientServer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/DynamicJSON/DynamicJSON.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
