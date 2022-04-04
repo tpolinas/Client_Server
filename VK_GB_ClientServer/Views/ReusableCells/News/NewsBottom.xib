@@ -22,7 +22,7 @@
                         <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="0" imagePadding="0.0">
-                            <imageReference key="image" image="heart" catalog="system" symbolScale="small" renderingMode="template"/>
+                            <imageReference key="image" image="hand.thumbsup" catalog="system" symbolScale="small" renderingMode="template"/>
                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small" weight="regular"/>
                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="5"/>
@@ -32,11 +32,11 @@
                         </connections>
                     </button>
                     <button opaque="NO" alpha="0.89999997615814209" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTt-mS-fV5">
-                        <rect key="frame" x="48" y="13" width="38.5" height="17"/>
+                        <rect key="frame" x="48" y="13" width="39" height="17"/>
                         <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="0" imagePadding="0.0">
-                            <imageReference key="image" image="message" catalog="system" symbolScale="small" renderingMode="template"/>
+                            <imageReference key="image" image="ellipsis.bubble" catalog="system" symbolScale="small" renderingMode="template"/>
                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small" weight="regular"/>
                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="10" bottom="0.0" trailing="5"/>
@@ -46,11 +46,11 @@
                         </connections>
                     </button>
                     <button opaque="NO" alpha="0.89999997615814209" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blG-S6-Q7y">
-                        <rect key="frame" x="86.5" y="13" width="33.5" height="17"/>
+                        <rect key="frame" x="87" y="13" width="33.5" height="17"/>
                         <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="0" imagePadding="0.0">
-                            <imageReference key="image" image="arrowshape.turn.up.right" catalog="system" symbolScale="small" renderingMode="template"/>
+                            <imageReference key="image" image="paperplane" catalog="system" symbolScale="small" renderingMode="template"/>
                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small" weight="regular"/>
                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="10" bottom="0.0" trailing="0.0"/>
@@ -80,8 +80,8 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="arrowshape.turn.up.right" catalog="system" width="128" height="106"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
-        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="ellipsis.bubble" catalog="system" width="128" height="110"/>
+        <image name="hand.thumbsup" catalog="system" width="128" height="128"/>
+        <image name="paperplane" catalog="system" width="128" height="118"/>
     </resources>
 </document>

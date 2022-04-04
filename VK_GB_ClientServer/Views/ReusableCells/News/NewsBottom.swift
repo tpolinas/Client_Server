@@ -22,11 +22,11 @@ class NewsBottom: UITableViewCell {
                    commentsCounter: Int,
                    sharedCounter: Int) {
         if isLiked {
-            likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+            likeButton.setImage(UIImage(systemName: "hand.thumbsup.fill"), for: .normal)
             likeButton.setTitle("\(likesCounter)", for: .normal)
             likeButton.tintColor = .systemBlue
         } else {
-            likeButton.setImage(UIImage(systemName: "heart"), for: .normal)
+            likeButton.setImage(UIImage(systemName: "hand.thumbsup"), for: .normal)
             likeButton.setTitle("\(likesCounter)", for: .normal)
             likeButton.tintColor = .systemRed
         }
